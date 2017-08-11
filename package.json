@@ -1,0 +1,47 @@
+{
+  "name": "react-dream-experiments",
+  "version": "0.1.0",
+  "description": "Experiments with React Dream",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "sagui build",
+    "dist": "sagui dist",
+    "format": "sagui format",
+    "start": "sagui develop --port 3000",
+    "test": "sagui test",
+    "test:lint": "sagui test:lint",
+    "test:typecheck": "sagui test:typecheck",
+    "test:unit": "sagui test:unit --coverage",
+    "test:unit:watch": "sagui test:unit --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviervia/react-dream-experiments.git"
+  },
+  "keywords": [
+    "react-dream",
+    "react",
+    "fantasy-land",
+    "fantasyland",
+    "fp",
+    "functional-programming",
+    "functionalprogramming"
+  ],
+  "author": "Fernando Via Canel <fernando.via@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xaviervia/react-dream-experiments/issues"
+  },
+  "homepage": "https://github.com/xaviervia/react-dream-experiments#readme",
+  "devDependencies": {
+    "sagui": "^11.1.0"
+  },
+  "dependencies": {
+    "ramda": "^0.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-dream": "^0.2.0",
+    "recompose": "^0.24.0",
+    "redux": "^3.7.2"
+  }
+}
