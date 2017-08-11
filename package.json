@@ -4,15 +4,7 @@
   "description": "Experiments with React Dream",
   "main": "src/index.js",
   "scripts": {
-    "build": "sagui build",
-    "dist": "sagui dist",
-    "format": "sagui format",
     "start": "sagui develop --port 3000",
-    "test": "sagui test",
-    "test:lint": "sagui test:lint",
-    "test:typecheck": "sagui test:typecheck",
-    "test:unit": "sagui test:unit --coverage",
-    "test:unit:watch": "sagui test:unit --watch"
   },
   "repository": {
     "type": "git",
@@ -38,9 +30,9 @@
   },
   "dependencies": {
     "ramda": "^0.24.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-dream": "^0.2.0",
+    "react": "^16.0.0-beta.3",
+    "react-dom": "^16.0.0-beta.3",
+    "react-dream": "^0.2.1",
     "recompose": "^0.24.0",
     "redux": "^3.7.2"
   }
