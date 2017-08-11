@@ -4,7 +4,7 @@
   "description": "Experiments with React Dream",
   "main": "src/index.js",
   "scripts": {
-    "start": "sagui develop --port 3000",
+    "start": "sagui develop --port 3000"
   },
   "repository": {
     "type": "git",
