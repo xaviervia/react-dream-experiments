@@ -3,7 +3,8 @@ import {render} from 'react-dom'
 import {Html, of} from 'react-dream'
 
 const links = [
-  'with-store'
+  'with-store',
+  'pointfree-style'
 ]
 
 const withChild = Child => Parent => ({child, parent}) =>
