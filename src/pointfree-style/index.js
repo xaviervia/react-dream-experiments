@@ -1,8 +1,11 @@
 import React from 'react'
 import {render} from 'react-dom'
-import Tagline from './Tagline'
+import Header from './Header'
 
 render(
-  <Tagline.Component>Hola</Tagline.Component>,
+  <Header.Component
+    title='lala'
+    tagline='lorem ipsum'
+  />,
   document.getElementById('root')
 )

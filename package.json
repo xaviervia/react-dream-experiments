@@ -29,8 +29,10 @@
     "sagui": "^11.1.0"
   },
   "dependencies": {
+    "@klarna/higher-order-components": "^3.0.3",
     "ramda": "^0.24.1",
     "react": "^16.0.0-beta.3",
+    "react-context-props": "^2.2.0",
     "react-dom": "^16.0.0-beta.3",
     "react-dream": "^0.2.1",
     "recompose": "^0.24.0",
