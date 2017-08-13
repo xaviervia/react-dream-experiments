@@ -3,5 +3,9 @@
  * see: http://sagui.js.org/
  */
 module.exports = {
-  pages: ['index', 'with-store/index'],
+  pages: [
+    'index',
+    'with-store/index',
+    'pointfree-style/index'
+  ],
 }
