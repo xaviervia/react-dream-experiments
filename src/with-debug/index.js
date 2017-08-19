@@ -3,11 +3,8 @@ import { render } from 'react-dom'
 import { Html } from 'react-dream'
 
 const App = Html.Div
-  .log(x => x)
-  .log(props => `Now the props should be gone: ${Object.keys(props).join(', ')}`)
   .removeProps('a', 'c', 'randomProp')
-  .log(x => x)
-  .log(props => `The props right now are: ${Object.keys(props).join(', ')}`)
+  .debug()
   .addProps(() => ({
     a: '1',
     c: '4'
