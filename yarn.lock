@@ -5224,9 +5224,9 @@ react-dom@^16.0.0-beta.3:
     object-assign "^4.1.0"
     prop-types "^15.5.6"
 
-react-dream@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/react-dream/-/react-dream-0.2.1.tgz#797366c10a0ed440b96fead8e980c412954cbbb9"
+react-dream@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/react-dream/-/react-dream-0.3.0.tgz#410ed0badf9a186571b6e7089f3e5b08fae6da93"
 
 react@^16.0.0-beta.3:
   version "16.0.0-beta.5"
