@@ -3,6 +3,8 @@ import {render} from 'react-dom'
 import {Html, of} from 'react-dream'
 
 const links = [
+  'with-debug',
+  'with-log',
   'with-store',
   'pointfree-style'
 ]

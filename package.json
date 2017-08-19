@@ -8,7 +8,7 @@
     "dist": "sagui dist",
     "format": "sagui format",
     "start": "sagui develop --port 3000",
-    "test": "sagui test",
+    "test": "npm run dist",
     "test:lint": "sagui test:lint",
     "test:typecheck": "sagui test:typecheck",
     "test:unit": "sagui test:unit --coverage",
@@ -42,7 +42,7 @@
     "react": "^16.0.0-beta.3",
     "react-context-props": "^2.2.0",
     "react-dom": "^16.0.0-beta.3",
-    "react-dream": "^0.3.0",
+    "react-dream": "^0.3.2",
     "recompose": "^0.24.0",
     "redux": "^3.7.2"
   }
