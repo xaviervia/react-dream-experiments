@@ -3,6 +3,7 @@ import {render} from 'react-dom'
 import {Html, of} from 'react-dream'
 
 const links = [
+  'with-log',
   'with-store',
   'pointfree-style'
 ]

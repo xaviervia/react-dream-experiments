@@ -5,6 +5,7 @@
 module.exports = {
   pages: [
     'index',
+    'with-log/index',
     'with-store/index',
     'pointfree-style/index'
   ],
