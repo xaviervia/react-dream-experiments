@@ -4,7 +4,7 @@
 
 ```js
 import React from 'react'
-import {render} from 'react-dom'
+import { render } from 'react-dom'
 import { Html } from 'react-dream'
 
 const App = Html.Div
