@@ -5,9 +5,10 @@
 module.exports = {
   pages: [
     'index',
+    'monoid/index',
+    'pointfree-style/index',
     'with-debug/index',
     'with-log/index',
-    'with-store/index',
-    'pointfree-style/index'
+    'with-store/index'
   ],
 }

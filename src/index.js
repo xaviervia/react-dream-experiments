@@ -3,10 +3,11 @@ import {render} from 'react-dom'
 import {Html, of} from 'react-dream'
 
 const links = [
+  'monoid',
+  'pointfree-style',
   'with-debug',
   'with-log',
-  'with-store',
-  'pointfree-style'
+  'with-store'
 ]
 
 const withChild = Child => Parent => ({child, parent}) =>
